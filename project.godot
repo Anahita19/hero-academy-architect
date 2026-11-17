@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-boot_splash/image="res://assets/template/ui/loading-background.png"
-boot_splash/show_image=true
+boot_splash/image=""
+boot_splash/show_image=false
 boot_splash/fullsize=true
 boot_splash/use_filter=true
 boot_splash/bg_color=Color(0.07843, 0.10196, 0.11765, 1)
@@ -19,9 +19,9 @@ boot_splash/bg_color=Color(0.07843, 0.10196, 0.11765, 1)
 
 
 
-config/name="Generic Game Template"
-config/description="A reusable two-stage maze-chase foundation for browser games."
-config/version="2.0.0"
+config/name="Hero Academy Architect"
+config/description="A 2D academy planning and turn-based tactics lab built from the supplied Hero Academy foundation."
+config/version="1.0.0"
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://assets/template/characters/runner.png"
@@ -85,3 +85,6 @@ pause={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+
+[editor]
+import/use_multiple_threads=false

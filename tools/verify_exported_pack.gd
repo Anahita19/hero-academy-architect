@@ -8,7 +8,7 @@ func _initialize() -> void:
 
 
 func _verify() -> void:
-	_check(ProjectSettings.get_setting("application/config/name") == "Generic Game Template", "exported identity")
+	_check(ProjectSettings.get_setting("application/config/name") == "Hero Academy Architect", "exported identity")
 	for path: String in [
 		"environment/backdrop.png", "environment/foreground.png",
 		"characters/runner.png", "characters/sentinel.png",
@@ -42,15 +42,21 @@ func _verify() -> void:
 		root.add_child(main)
 		await process_frame
 		await process_frame
-		_check(bool((main.get("_title_screen") as Control).visible), "pack boots to title")
+		_check(int(main.get("_screen")) == 0, "pack boots to title")
+		_check(ResourceLoader.exists("res://assets/supplied/v6_game.png"), "supplied academy visual exported")
+		_check(ResourceLoader.exists("res://assets/supplied/v6_grid.png"), "supplied grid visual exported")
 		_check(not main.has_method("_maybe_capture"), "capture routing removed from runtime")
 		# The shared release projection strips development controls even when
 		# this Web PCK is inspected by a debug-capable native editor binary.
 		_check(not main.has_method("_open_tuning"), "release tuning entry point excluded")
 		_check(not ResourceLoader.exists("res://scripts/ui/tuning_panel.gd"), "release tuning panel excluded")
-		main.call("_start_new_run")
+		main.call("_begin_plan")
 		await process_frame
-		_check(main.get("_world") != null, "pack starts gameplay")
+		_check(int(main.get("_screen")) == 1, "pack opens planning")
+		main.call("_start_test")
+		await process_frame
+		_check(int(main.get("_screen")) == 2, "pack starts tactical gameplay")
+		_check((main.get("_enemies") as Array).size() == 2, "pack seeds rival forces")
 		var audio := root.get_node("AudioDirector")
 		_check(not bool(audio.call("play_cue", "ui.confirm")), "pack missing SFX is silent")
 		_check(not bool(audio.call("play_music", "music.gameplay")), "pack missing BGM is silent")

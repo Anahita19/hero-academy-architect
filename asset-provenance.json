@@ -1,5 +1,107 @@
 {
   "assets": {
+    "assets/supplied/v6_adv.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/academy_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:3d47bede0d97ed99677e7392b2f2b45e5beff40f2decfbfb498c17a124c290d5",
+      "shipped": true,
+      "size": 939497,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/academy_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/supplied/v6_facilities.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:16d6da310e8902c3966372c2ba996f4197ced47b55e2adc8dbb1d75de03970cf",
+      "shipped": true,
+      "size": 1050786,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/supplied/v6_game.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/academy_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:d27d661176504904da88b0f5fd9b31fda106e696e659e5bff91e82ccdabfa200",
+      "shipped": true,
+      "size": 977284,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/academy_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/supplied/v6_grid.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/academy_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:577f02d0bd536ffd5fa88c4bee8f427ae3d8deb4a3f3ccc8f3f1a590476bad54",
+      "shipped": true,
+      "size": 803542,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/academy_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/supplied/v6_swim.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:8673ba68d0e82c179a544777c18eea63dde5a68ff40cee6b4c261349155c095f",
+      "shipped": true,
+      "size": 961469,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
     "assets/template/characters/runner.png": {
       "declaredUseEvidence": [],
       "generator": {},
@@ -7,25 +109,19 @@
       "license": {},
       "origin": "template",
       "referenceEvidence": [
-        "project.godot",
-        "scripts/entities/runner.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
+        "project.godot"
       ],
       "regions": [],
       "sha256": "sha256:c88485773d6ff9361e036f37d8ac76fb77b8c3f7c041c3f52c8dd222adc8cc21",
-      "shipped": null,
+      "shipped": true,
       "size": 68885,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
-        "project.godot",
-        "scripts/entities/runner.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
+        "project.godot"
       ],
       "used": true,
       "usedBy": []
@@ -36,24 +132,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/entities/sentinel.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:0d9fb751bca5507ba14f7090573e6605a94753390a9e7c53bf2f590f0a24918d",
-      "shipped": null,
+      "shipped": true,
       "size": 64998,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/entities/sentinel.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/environment/backdrop.png": {
@@ -62,22 +152,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:ec4ab7867e60fb483dd438459f587b478aac4c1e71ec4fe509ce74a18de34216",
-      "shipped": null,
+      "shipped": true,
       "size": 971282,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/environment/foreground.png": {
@@ -86,22 +172,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:4b6916024c69961fbfa7cdc929c68f547fea4561e61ebdb3405b3aba0efbd94d",
-      "shipped": null,
+      "shipped": true,
       "size": 58603,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/fonts/Figtree-VF.subset.woff2": {
@@ -117,12 +199,12 @@
       ],
       "regions": [],
       "sha256": "sha256:b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf",
-      "shipped": null,
+      "shipped": true,
       "size": 23660,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
         "assets/template/fonts/ui_bold.tres",
@@ -148,7 +230,7 @@
       ],
       "regions": [],
       "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
-      "shipped": null,
+      "shipped": true,
       "size": 1869368,
       "source": {
         "name": "NotoSansSC-VF.subset.woff2",
@@ -170,28 +252,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "assets/template/fonts/display/generic_eyebrow.tres",
-        "assets/template/fonts/display/generic_heading.tres",
-        "assets/template/fonts/display/generic_menu.tres",
-        "assets/template/fonts/display/generic_title.tres"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:438fbf4582548e76b266a738f2c11bcbd5137978f2d2e2f3aaabd49df69186f2",
-      "shipped": null,
+      "shipped": true,
       "size": 41696,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "assets/template/fonts/display/generic_eyebrow.tres",
-        "assets/template/fonts/display/generic_heading.tres",
-        "assets/template/fonts/display/generic_menu.tres",
-        "assets/template/fonts/display/generic_title.tres"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/energy.png": {
@@ -200,26 +272,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:ffd7906f240f928e785d7c19a9e7a7b5dfab0d7483be5205dda3e4ba17ebe06a",
-      "shipped": null,
+      "shipped": true,
       "size": 50950,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/main.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/magnet.png": {
@@ -228,22 +292,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:6e7354aa6510a462717218b09b9d784bb161b87878bff62ef4f2a9d03c053de7",
-      "shipped": null,
+      "shipped": true,
       "size": 53724,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/overdrive.png": {
@@ -252,24 +312,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:6a48a85886c0551c1af0df576b0225f0ec3ae86b326fd84fc614083fbfe2908b",
-      "shipped": null,
+      "shipped": true,
       "size": 37238,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/shield.png": {
@@ -278,24 +332,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:8cebf0cf730ca35c8c8697192ef78121c926442328a0725e0bd3e31701d64f13",
-      "shipped": null,
+      "shipped": true,
       "size": 39659,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd",
-        "scripts/ui/title_art.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/powerups/slow_field.png": {
@@ -304,22 +352,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:96874c000866b2e7503b40da73888afb918ae36e462f51488415157da52a8637",
-      "shipped": null,
+      "shipped": true,
       "size": 49145,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/game/maze_world.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/loading-background.png": {
@@ -328,22 +372,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "project.godot"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:16dde3061f4e60802f8f0d1a6b875e72b6add05192237b03fef1fd313968a13a",
-      "shipped": null,
+      "shipped": true,
       "size": 473356,
       "source": {
         "starterId": "game-generic-v56"
       },
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "project.godot"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/pause_glass.png": {
@@ -352,22 +392,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:c88a4725838df85e72c7270865848f275b62c525c5679a2a8b7ecefb1af82d4b",
-      "shipped": null,
+      "shipped": true,
       "size": 115691,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/title_glass.png": {
@@ -376,99 +412,128 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "scripts/main.gd"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:8860db07768f093d4effea10b51431f76a1552d4bc7fd4e57757f189c51f0429",
-      "shipped": null,
+      "shipped": true,
       "size": 155592,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "scripts/main.gd"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     }
   },
   "discoveries": {},
   "downloads": {},
+  "export": {
+    "coverage": "verified",
+    "hostMedia": [
+      {
+        "contentMatches": [],
+        "path": "index.apple-touch-icon.png",
+        "sha256": "sha256:223ba4214aa892c363acf1d673904d77262a586cc66ff0adf75128f85e931e88",
+        "size": 32579,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.icon.png",
+        "sha256": "sha256:24e35756331a1621216bb32813dc7899b8bd94bc28e2cdca264d00c855d34768",
+        "size": 59927,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.png",
+        "sha256": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+        "size": 21443,
+        "sourcePaths": []
+      }
+    ],
+    "pckSha256": "sha256:9810a8bdac7be8ba1c3207539f310d4de17bfac22ef6f1d15b75e4f66d7120cb",
+    "profile": "release",
+    "sourceFingerprint": "sha256:237e5c5ebb58a89aaf74a88ea6c23ad5769d508fa212b92a6bccfe737062b6fc"
+  },
   "procedures": {},
   "summary": {
     "ancestry": {
       "ai": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "catalog": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "procedural": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       }
     },
     "derivatives": {
       "retained": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     },
-    "exportedHostMedia": null,
+    "exportedHostMedia": {
+      "paths": 3,
+      "uniqueHashes": 3,
+      "unmatchedSourcePaths": 3
+    },
     "files": {
       "downloaded": 0,
-      "retained": 15,
-      "shipped": null,
-      "used": 15
+      "retained": 20,
+      "shipped": 20,
+      "used": 6
     },
     "origins": {
       "ai": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "catalog": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "derivative": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "external": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "procedural": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "template": {
         "retained": 15,
-        "shipped": null,
-        "used": 15
+        "shipped": 15,
+        "used": 3
       },
       "unknown": {
-        "retained": 0,
-        "shipped": null,
-        "used": 0
+        "retained": 5,
+        "shipped": 5,
+        "used": 3
       }
     },
     "packs": {
       "discovered": 0,
       "downloaded": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     },
     "proceduralSystems": {
@@ -477,9 +542,122 @@
     },
     "spriteRegions": {
       "retained": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
+    },
+    "visualCoverage": {
+      "approvedRevision": 4,
+      "blueprintId": "gbp_2eec87b5813920888c67316f",
+      "committedRoles": 6,
+      "expectedDigest": "125519299f254b9ed3bc0952fef78b9aaeec19f900dbc86b5189d21c04097340",
+      "fulfilledRoles": 0,
+      "roles": [
+        {
+          "id": "academy-arena",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "hero-cadets",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "defensive-modules",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "ai-rival-forces",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "tactical-feedback",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "accreditation-results",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        }
+      ],
+      "search": {
+        "checkedPages": 0,
+        "outcomes": 0,
+        "overflowEvents": 0,
+        "requests": 0
+      },
+      "selectedButUnusedAssets": [],
+      "staleRenderedEvidence": [],
+      "status": "incomplete",
+      "unexplainedFallbacks": [],
+      "unresolvedRoles": [
+        "academy-arena",
+        "hero-cadets",
+        "defensive-modules",
+        "ai-rival-forces",
+        "tactical-feedback",
+        "accreditation-results"
+      ],
+      "visualQuality": "requires_agent_review"
     }
   },
-  "version": 1
+  "version": 1,
+  "visualCoverage": {
+    "attempts": {},
+    "expected": {
+      "approvedRevision": 4,
+      "blueprintId": "gbp_2eec87b5813920888c67316f",
+      "digest": "125519299f254b9ed3bc0952fef78b9aaeec19f900dbc86b5189d21c04097340",
+      "roles": [
+        {
+          "description": "Preserve and adapt the supplied 2D arena layout, placement cells, obstacles, and tactically meaningful terrain so you can read movement and positioning during planning and tests.",
+          "id": "academy-arena",
+          "label": "Your academy arena and tactical terrain"
+        },
+        {
+          "description": "Use the supplied 2D cadet visuals and their applicable states or animations so you can distinguish units, placement, actions, damage, defeat, and team roles at a glance.",
+          "id": "hero-cadets",
+          "label": "Your hero cadets"
+        },
+        {
+          "description": "Retain suitable supplied 2D module visuals with clear placed, active, cooldown, damaged, and disabled states so your academy design choices remain readable.",
+          "id": "defensive-modules",
+          "label": "Your defensive modules"
+        },
+        {
+          "description": "Preserve suitable supplied 2D rival visuals and action states, keeping them immediately distinct from your cadets during turn-based ability tests.",
+          "id": "ai-rival-forces",
+          "label": "Your AI rival forces"
+        },
+        {
+          "description": "Adapt supplied 2D highlights, targeting zones, movement ranges, impact effects, synergy cues, and cooldown feedback so you can understand each tactical decision without adding visual clutter.",
+          "id": "tactical-feedback",
+          "label": "Your tactical ranges and ability feedback"
+        },
+        {
+          "description": "Use supplied visual treatment for clear pass, fail, replay, and revise-plan states so you can immediately understand the result and return to the core loop.",
+          "id": "accreditation-results",
+          "label": "Your accreditation and test outcomes"
+        }
+      ]
+    },
+    "overflowEvents": 0,
+    "resolutions": {},
+    "version": 1
+  }
 }
